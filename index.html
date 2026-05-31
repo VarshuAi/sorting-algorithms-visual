@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithms Visualizer — Glassmorphism Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glass-bg"></div>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-row">
+                <span class="logo-emoji">📊</span>
+                <div class="title-col">
+                    <h1>Sorting Algorithms Visualizer</h1>
+                    <p class="tagline">Interactive visualizer highlighting Bubble, Insertion, and Selection sorts.</p>
+                </div>
+            </div>
+            <div class="badge">science</div>
+        </header>
+
+        <main class="workspace-card">
+            
+            <div id="sort-container" style="height:100px; background:#0c0c14; border-radius:8px; display:flex; align-items:flex-end; padding:10px; gap:8px;"></div>
+            <button class="btn" style="margin-top:12px;" onclick="bubbleSort()">Run Bubble Sort</button>
+        
+        </main>
+        
+        <footer class="app-footer">
+            <p>Created as a premium portfolio piece by <a href="https://github.com/VARSHAN69" target="_blank">@VARSHAN69</a></p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
