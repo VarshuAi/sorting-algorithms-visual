@@ -38,7 +38,7 @@ version: 1.0
 type: Repository
 author: VarshuAi
 description: >
-  Interactive visualizer highlighting Bubble, Insertion, and Selection sorts.
+  name: sorting-algorithms-visual version: 1.0 type: Repository author: VarshuAi description: >   Interactive visualizer highlighting Bubble, Insertion, and Selection sorts. primary_tech: CSS
 primary_tech: CSS
 ```
 
